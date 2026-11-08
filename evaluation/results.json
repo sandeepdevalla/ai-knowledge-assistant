@@ -1,0 +1,951 @@
+{
+  "question_count": 20,
+  "generation_success_count": 20,
+  "generation_error_count": 0,
+  "mean_source_coverage": 0.719,
+  "results": [
+    {
+      "id": "Q01",
+      "category": "direct",
+      "question": "What are the five essential characteristics of cloud computing?",
+      "answerable": true,
+      "expected_points": [
+        "On-demand self-service",
+        "Broad network access",
+        "Resource pooling",
+        "Rapid elasticity",
+        "Measured service"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.6733,
+          "text": "2 \n2. \nThe NIST Definition of Cloud Computing \nCloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared \npool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that \ncan be rapidly provisioned and released with minimal management effort or service provider interaction. \nThis cloud model is composed of five essential characteristics, three service models, and four deployment \nmodels. \n \nEssential Characteristics: \nOn-demand self-service. A consumer can unilaterally provision computing capabilities, such as \nserver time and network storage, as needed automatically without requiring human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and a"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.5856,
+          "text": "or \neven individual application capabilities, with the possible exception of limited user-\nspecific application configuration settings. \nPlatform as a Service (PaaS). The capability provided to the consumer is to deploy onto the cloud \ninfrastructure consumer-created or acquired applications created using programming \n                                                     \n1 Typically this is done on a pay-per-use or charge-per-use basis. \n2 A cloud infrastructure is the collection of hardware and software that enables the five essential characteristics of cloud \ncomputing. The cloud infrastructure can be viewed as containing both a physical layer and an abstraction layer. The physical \nlayer consists of the hardware resources that are necessary to support the cloud services being provided,"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 5,
+          "score": 0.5816,
+          "text": "her Federal official. \n \n1.2 \nPurpose and Scope \nCloud computing is an evolving paradigm. The NIST definition characterizes important aspects of cloud \ncomputing and is intended to serve as a means for broad comparisons of cloud services and deployment \nstrategies, and to provide a baseline for discussion from what is cloud computing to how to best use cloud \ncomputing.  The service and deployment models defined form a simple taxonomy that is not intended to \nprescribe or constrain any particular method of deployment, service delivery, or business operation. \n \n1.3 \nAudience \nThe intended audience of this document is system planners, program managers, technologists, and others \nadopting cloud computing as consumers or providers of cloud services."
+        }
+      ],
+      "matched_source_count": 1,
+      "expected_source_count": 1,
+      "source_coverage": 1.0,
+      "answer": "The five essential characteristics of cloud computing, as defined by NIST in NIST-SP-800-145, are:\n\n1. On-demand self-service [1]\n2. Broad network access [1]\n3. Rapid provisioning [1]\n4. Resource pooling [1]\n5. Measured service [1]\n\nThese characteristics are part of the NIST definition of cloud computing and are intended to describe important aspects of cloud computing to facilitate comparisons and discussions about cloud services and deployment strategies [3].",
+      "usage": {
+        "inputTokens": 562,
+        "outputTokens": 113,
+        "totalTokens": 675
+      },
+      "retrieval_seconds": 0.009,
+      "generation_seconds": 2.381,
+      "error": null
+    },
+    {
+      "id": "Q02",
+      "category": "direct",
+      "question": "What is the NIST definition of cloud computing?",
+      "answerable": true,
+      "expected_points": [
+        "Ubiquitous, convenient, on-demand network access",
+        "A shared pool of configurable computing resources",
+        "Resources can be rapidly provisioned and released",
+        "Minimal management effort or service-provider interaction"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 2,
+          "score": 0.8159,
+          "text": "NIST Special Publication 800-145 \n \nThe NIST Definition of Cloud Computing \nPeter Mell \nTimothy Grance \n \nC  O  M  P  U  T  E  R      S  E  C  U  R  I  T  Y \nComputer Security Division \nInformation Technology Laboratory \nNational Institute of Standards and Technology \nGaithersburg, MD 20899-8930 \n \nSeptember 2011 \n \n \n \n \n \nU.S. Department of Commerce \nRebecca M. Blank, Acting Secretary \nNational Institute of Standards and Technology \nPatrick D. Gallagher, Under Secretary for Standards and \nTechnology and Director"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.7459,
+          "text": "2 \n2. \nThe NIST Definition of Cloud Computing \nCloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared \npool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that \ncan be rapidly provisioned and released with minimal management effort or service provider interaction. \nThis cloud model is composed of five essential characteristics, three service models, and four deployment \nmodels. \n \nEssential Characteristics: \nOn-demand self-service. A consumer can unilaterally provision computing capabilities, such as \nserver time and network storage, as needed automatically without requiring human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and a"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 1,
+          "score": 0.7176,
+          "text": "The NIST Definition of Cloud \nComputing \nRecommendations of the National Institute \nof Standards and Technology \n \nPeter Mell \nTimothy Grance \n \n \nSpecial Publication 800-145"
+        }
+      ],
+      "matched_source_count": 1,
+      "expected_source_count": 1,
+      "source_coverage": 1.0,
+      "answer": "The NIST definition of cloud computing, as provided in NIST Special Publication 800-145, is:\n\n\"Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction. This cloud model is composed of five essential characteristics, three service models, and four deployment models.\" [2]",
+      "usage": {
+        "inputTokens": 470,
+        "outputTokens": 109,
+        "totalTokens": 579
+      },
+      "retrieval_seconds": 0.04,
+      "generation_seconds": 0.787,
+      "error": null
+    },
+    {
+      "id": "Q03",
+      "category": "direct",
+      "question": "What are the three cloud service models defined by NIST?",
+      "answerable": true,
+      "expected_points": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 7
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.6763,
+          "text": "2 \n2. \nThe NIST Definition of Cloud Computing \nCloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared \npool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that \ncan be rapidly provisioned and released with minimal management effort or service provider interaction. \nThis cloud model is composed of five essential characteristics, three service models, and four deployment \nmodels. \n \nEssential Characteristics: \nOn-demand self-service. A consumer can unilaterally provision computing capabilities, such as \nserver time and network storage, as needed automatically without requiring human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and a"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 2,
+          "score": 0.6146,
+          "text": "NIST Special Publication 800-145 \n \nThe NIST Definition of Cloud Computing \nPeter Mell \nTimothy Grance \n \nC  O  M  P  U  T  E  R      S  E  C  U  R  I  T  Y \nComputer Security Division \nInformation Technology Laboratory \nNational Institute of Standards and Technology \nGaithersburg, MD 20899-8930 \n \nSeptember 2011 \n \n \n \n \n \nU.S. Department of Commerce \nRebecca M. Blank, Acting Secretary \nNational Institute of Standards and Technology \nPatrick D. Gallagher, Under Secretary for Standards and \nTechnology and Director"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 5,
+          "score": 0.6081,
+          "text": "her Federal official. \n \n1.2 \nPurpose and Scope \nCloud computing is an evolving paradigm. The NIST definition characterizes important aspects of cloud \ncomputing and is intended to serve as a means for broad comparisons of cloud services and deployment \nstrategies, and to provide a baseline for discussion from what is cloud computing to how to best use cloud \ncomputing.  The service and deployment models defined form a simple taxonomy that is not intended to \nprescribe or constrain any particular method of deployment, service delivery, or business operation. \n \n1.3 \nAudience \nThe intended audience of this document is system planners, program managers, technologists, and others \nadopting cloud computing as consumers or providers of cloud services."
+        }
+      ],
+      "matched_source_count": 0,
+      "expected_source_count": 1,
+      "source_coverage": 0.0,
+      "answer": "The evidence provided does not explicitly list the three cloud service models defined by NIST. The document mentions the five essential characteristics, three service models, and four deployment models but does not specify what those three service models are. Therefore, based on the given evidence, the specific three cloud service models defined by NIST cannot be determined. [1], [3]",
+      "usage": {
+        "inputTokens": 572,
+        "outputTokens": 76,
+        "totalTokens": 648
+      },
+      "retrieval_seconds": 0.189,
+      "generation_seconds": 0.696,
+      "error": null
+    },
+    {
+      "id": "Q04",
+      "category": "direct",
+      "question": "What are the four cloud deployment models defined by NIST?",
+      "answerable": true,
+      "expected_points": [
+        "Private cloud",
+        "Community cloud",
+        "Public cloud",
+        "Hybrid cloud"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 7
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.6624,
+          "text": "2 \n2. \nThe NIST Definition of Cloud Computing \nCloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared \npool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that \ncan be rapidly provisioned and released with minimal management effort or service provider interaction. \nThis cloud model is composed of five essential characteristics, three service models, and four deployment \nmodels. \n \nEssential Characteristics: \nOn-demand self-service. A consumer can unilaterally provision computing capabilities, such as \nserver time and network storage, as needed automatically without requiring human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and a"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 5,
+          "score": 0.6362,
+          "text": "her Federal official. \n \n1.2 \nPurpose and Scope \nCloud computing is an evolving paradigm. The NIST definition characterizes important aspects of cloud \ncomputing and is intended to serve as a means for broad comparisons of cloud services and deployment \nstrategies, and to provide a baseline for discussion from what is cloud computing to how to best use cloud \ncomputing.  The service and deployment models defined form a simple taxonomy that is not intended to \nprescribe or constrain any particular method of deployment, service delivery, or business operation. \n \n1.3 \nAudience \nThe intended audience of this document is system planners, program managers, technologists, and others \nadopting cloud computing as consumers or providers of cloud services."
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 2,
+          "score": 0.61,
+          "text": "NIST Special Publication 800-145 \n \nThe NIST Definition of Cloud Computing \nPeter Mell \nTimothy Grance \n \nC  O  M  P  U  T  E  R      S  E  C  U  R  I  T  Y \nComputer Security Division \nInformation Technology Laboratory \nNational Institute of Standards and Technology \nGaithersburg, MD 20899-8930 \n \nSeptember 2011 \n \n \n \n \n \nU.S. Department of Commerce \nRebecca M. Blank, Acting Secretary \nNational Institute of Standards and Technology \nPatrick D. Gallagher, Under Secretary for Standards and \nTechnology and Director"
+        }
+      ],
+      "matched_source_count": 0,
+      "expected_source_count": 1,
+      "source_coverage": 0.0,
+      "answer": "The evidence provided does not include a complete list of the four cloud deployment models defined by NIST. The document excerpt mentions the existence of four deployment models but does not explicitly list them. Therefore, based on the given evidence, I cannot provide the specific names of the four cloud deployment models.",
+      "usage": {
+        "inputTokens": 572,
+        "outputTokens": 59,
+        "totalTokens": 631
+      },
+      "retrieval_seconds": 0.019,
+      "generation_seconds": 0.785,
+      "error": null
+    },
+    {
+      "id": "Q05",
+      "category": "direct",
+      "question": "What does resource pooling mean in cloud computing?",
+      "answerable": true,
+      "expected_points": [
+        "Provider resources are pooled to serve multiple consumers",
+        "A multi-tenant model is used",
+        "Resources are dynamically assigned and reassigned according to demand"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.6193,
+          "text": "able to specify location at a higher level of \nabstraction (e.g., country, state, or datacenter). Examples of resources include storage, \nprocessing, memory, and network bandwidth. \nRapid elasticity. Capabilities can be elastically provisioned and released, in some cases \nautomatically, to scale rapidly outward and inward commensurate with demand. To the \nconsumer, the capabilities available for provisioning often appear to be unlimited and can \nbe appropriated in any quantity at any time. \nMeasured service. Cloud systems automatically control and optimize resource use by leveraging \na metering capability1 at some level of abstraction appropriate to the type of service (e.g., \nstorage, processing, bandwidth, and active user accounts). Resource usage can be \nmonitored, controlled, and repo"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.5961,
+          "text": "human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and accessed through standard \nmechanisms that promote use by heterogeneous thin or thick client platforms (e.g., \nmobile phones, tablets, laptops, and workstations). \nResource pooling. The provider\u2019s computing resources are pooled to serve multiple consumers \nusing a multi-tenant model, with different physical and virtual resources dynamically \nassigned and reassigned according to consumer demand. There is a sense of location \nindependence in that the customer generally has no control or knowledge over the exact \nlocation of the provided resources but may be able to specify location at a higher level of \nabstraction (e.g., country, state, or datacenter). Examples of resources"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.5834,
+          "text": "e.g., \nstorage, processing, bandwidth, and active user accounts). Resource usage can be \nmonitored, controlled, and reported, providing transparency for both the provider and \nconsumer of the utilized service. \n \nService Models: \nSoftware as a Service (SaaS). The capability provided to the consumer is to use the provider\u2019s \napplications running on a cloud infrastructure2. The applications are accessible from \nvarious client devices through either a thin client interface, such as a web browser (e.g., \nweb-based email), or a program interface. The consumer does not manage or control the \nunderlying cloud infrastructure including network, servers, operating systems, storage, or \neven individual application capabilities, with the possible exception of limited user-\nspecific application configu"
+        }
+      ],
+      "matched_source_count": 1,
+      "expected_source_count": 1,
+      "source_coverage": 1.0,
+      "answer": "Resource pooling in cloud computing refers to the practice of pooling the provider\u2019s computing resources to serve multiple consumers using a multi-tenant model. This means that different physical and virtual resources are dynamically assigned and reassigned according to consumer demand. There is a sense of location independence in that the customer generally has no control or knowledge over the exact location of the provided resources but may be able to specify location at a higher level of abstraction (e.g., country, state, or datacenter) [2]. \n\nThis concept is supported by the evidence provided in the documents, which describe resource pooling as a characteristic of cloud computing where resources are pooled to serve multiple consumers [2].",
+      "usage": {
+        "inputTokens": 602,
+        "outputTokens": 139,
+        "totalTokens": 741
+      },
+      "retrieval_seconds": 0.019,
+      "generation_seconds": 0.798,
+      "error": null
+    },
+    {
+      "id": "Q06",
+      "category": "direct",
+      "question": "What is rapid elasticity in cloud computing?",
+      "answerable": true,
+      "expected_points": [
+        "Capabilities can be elastically provisioned and released",
+        "Scaling can occur rapidly outward and inward according to demand"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.6096,
+          "text": "able to specify location at a higher level of \nabstraction (e.g., country, state, or datacenter). Examples of resources include storage, \nprocessing, memory, and network bandwidth. \nRapid elasticity. Capabilities can be elastically provisioned and released, in some cases \nautomatically, to scale rapidly outward and inward commensurate with demand. To the \nconsumer, the capabilities available for provisioning often appear to be unlimited and can \nbe appropriated in any quantity at any time. \nMeasured service. Cloud systems automatically control and optimize resource use by leveraging \na metering capability1 at some level of abstraction appropriate to the type of service (e.g., \nstorage, processing, bandwidth, and active user accounts). Resource usage can be \nmonitored, controlled, and repo"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.5771,
+          "text": "2 \n2. \nThe NIST Definition of Cloud Computing \nCloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared \npool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that \ncan be rapidly provisioned and released with minimal management effort or service provider interaction. \nThis cloud model is composed of five essential characteristics, three service models, and four deployment \nmodels. \n \nEssential Characteristics: \nOn-demand self-service. A consumer can unilaterally provision computing capabilities, such as \nserver time and network storage, as needed automatically without requiring human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and a"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 7,
+          "score": 0.5342,
+          "text": "urity requirements, policy, and compliance considerations). It may be owned, \nmanaged, and operated by one or more of the organizations in the community, a third \nparty, or some combination of them, and it may exist on or off premises. \nPublic cloud. The cloud infrastructure is provisioned for open use by the general public. It may be \nowned, managed, and operated by a business, academic, or government organization, or \nsome combination of them.  It exists on the premises of the cloud provider. \nHybrid cloud. The cloud infrastructure is a composition of two or more distinct cloud \ninfrastructures (private, community, or public) that remain unique entities, but are bound \ntogether by standardized or proprietary technology that enables data and application \nportability (e.g., cloud bursting"
+        }
+      ],
+      "matched_source_count": 1,
+      "expected_source_count": 1,
+      "source_coverage": 1.0,
+      "answer": "Rapid elasticity in cloud computing refers to the capability of cloud services to elastically provision and release resources, in some cases automatically, to scale rapidly outward and inward commensurate with demand [1]. This means that cloud resources can be quickly adjusted to meet the changing needs of users, allowing for rapid scaling to accommodate increased demand and then scaling back down when demand decreases. This feature provides the illusion to the consumer that the available resources are virtually unlimited and can be appropriated in any quantity at any time [1].",
+      "usage": {
+        "inputTokens": 606,
+        "outputTokens": 104,
+        "totalTokens": 710
+      },
+      "retrieval_seconds": 0.021,
+      "generation_seconds": 0.962,
+      "error": null
+    },
+    {
+      "id": "Q07",
+      "category": "direct",
+      "question": "What is measured service?",
+      "answerable": true,
+      "expected_points": [
+        "Resource use is automatically controlled and optimized through metering",
+        "Usage can be monitored, controlled, and reported"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.4808,
+          "text": "able to specify location at a higher level of \nabstraction (e.g., country, state, or datacenter). Examples of resources include storage, \nprocessing, memory, and network bandwidth. \nRapid elasticity. Capabilities can be elastically provisioned and released, in some cases \nautomatically, to scale rapidly outward and inward commensurate with demand. To the \nconsumer, the capabilities available for provisioning often appear to be unlimited and can \nbe appropriated in any quantity at any time. \nMeasured service. Cloud systems automatically control and optimize resource use by leveraging \na metering capability1 at some level of abstraction appropriate to the type of service (e.g., \nstorage, processing, bandwidth, and active user accounts). Resource usage can be \nmonitored, controlled, and repo"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.3965,
+          "text": "e.g., \nstorage, processing, bandwidth, and active user accounts). Resource usage can be \nmonitored, controlled, and reported, providing transparency for both the provider and \nconsumer of the utilized service. \n \nService Models: \nSoftware as a Service (SaaS). The capability provided to the consumer is to use the provider\u2019s \napplications running on a cloud infrastructure2. The applications are accessible from \nvarious client devices through either a thin client interface, such as a web browser (e.g., \nweb-based email), or a program interface. The consumer does not manage or control the \nunderlying cloud infrastructure including network, servers, operating systems, storage, or \neven individual application capabilities, with the possible exception of limited user-\nspecific application configu"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 7,
+          "score": 0.3766,
+          "text": "3 \nlanguages, libraries, services, and tools supported by the provider.3 The consumer does \nnot manage or control the underlying cloud infrastructure including network, servers, \noperating systems, or storage, but has control over the deployed applications and possibly \nconfiguration settings for the application-hosting environment. \nInfrastructure as a Service (IaaS). The capability provided to the consumer is to provision \nprocessing, storage, networks, and other fundamental computing resources where the \nconsumer is able to deploy and run arbitrary software, which can include operating \nsystems and applications. The consumer does not manage or control the underlying cloud \ninfrastructure but has control over operating systems, storage, and deployed applications; \nand possibly limited co"
+        }
+      ],
+      "matched_source_count": 1,
+      "expected_source_count": 1,
+      "source_coverage": 1.0,
+      "answer": "Measured service refers to the capability of cloud systems to automatically control and optimize resource use by leveraging a metering capability at some level of abstraction appropriate to the type of service (e.g., storage, processing, bandwidth, and active user accounts). Resource usage can be monitored, controlled, and reported, providing transparency for both the provider and consumer of the utilized service [1][2].",
+      "usage": {
+        "inputTokens": 590,
+        "outputTokens": 80,
+        "totalTokens": 670
+      },
+      "retrieval_seconds": 0.603,
+      "generation_seconds": 0.81,
+      "error": null
+    },
+    {
+      "id": "Q08",
+      "category": "direct",
+      "question": "What is the purpose of the NIST definition of cloud computing?",
+      "answerable": true,
+      "expected_points": [
+        "It supports broad comparisons of cloud services and deployment strategies",
+        "It provides a baseline for discussing cloud computing and its use"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 5
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 2,
+          "score": 0.7896,
+          "text": "NIST Special Publication 800-145 \n \nThe NIST Definition of Cloud Computing \nPeter Mell \nTimothy Grance \n \nC  O  M  P  U  T  E  R      S  E  C  U  R  I  T  Y \nComputer Security Division \nInformation Technology Laboratory \nNational Institute of Standards and Technology \nGaithersburg, MD 20899-8930 \n \nSeptember 2011 \n \n \n \n \n \nU.S. Department of Commerce \nRebecca M. Blank, Acting Secretary \nNational Institute of Standards and Technology \nPatrick D. Gallagher, Under Secretary for Standards and \nTechnology and Director"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 5,
+          "score": 0.7322,
+          "text": "Systems,\u201d as analyzed in A-130, Appendix IV: Analysis of Key Sections.  Supplemental \ninformation is provided in A-130, Appendix III.  \n \nThis guideline has been prepared for use by Federal agencies.  It may be used by nongovernmental \norganizations on a voluntary basis and is not subject to copyright, though attribution is desired. \n \nNothing in this document should be taken to contradict standards and guidelines made mandatory and \nbinding on Federal agencies by the Secretary of Commerce under statutory authority, nor should these \nguidelines be interpreted as altering or superseding the existing authorities of the Secretary of Commerce, \nDirector of the OMB, or any other Federal official. \n \n1.2 \nPurpose and Scope \nCloud computing is an evolving paradigm. The NIST definition characteri"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 5,
+          "score": 0.7309,
+          "text": "her Federal official. \n \n1.2 \nPurpose and Scope \nCloud computing is an evolving paradigm. The NIST definition characterizes important aspects of cloud \ncomputing and is intended to serve as a means for broad comparisons of cloud services and deployment \nstrategies, and to provide a baseline for discussion from what is cloud computing to how to best use cloud \ncomputing.  The service and deployment models defined form a simple taxonomy that is not intended to \nprescribe or constrain any particular method of deployment, service delivery, or business operation. \n \n1.3 \nAudience \nThe intended audience of this document is system planners, program managers, technologists, and others \nadopting cloud computing as consumers or providers of cloud services."
+        }
+      ],
+      "matched_source_count": 1,
+      "expected_source_count": 1,
+      "source_coverage": 1.0,
+      "answer": "The purpose of the NIST definition of cloud computing is to serve as a means for broad comparisons of cloud services and deployment strategies, and to provide a baseline for discussion from what is cloud computing to how to best use cloud computing [2]. It aims to characterize important aspects of cloud computing and is intended to facilitate discussions and comparisons among different cloud services and deployment strategies without prescribing or constraining any particular method of deployment, service delivery, or business operation [2][3].",
+      "usage": {
+        "inputTokens": 587,
+        "outputTokens": 99,
+        "totalTokens": 686
+      },
+      "retrieval_seconds": 0.147,
+      "generation_seconds": 0.773,
+      "error": null
+    },
+    {
+      "id": "Q09",
+      "category": "multi_part",
+      "question": "What are the cloud service models, and what does the consumer manage in IaaS?",
+      "answerable": true,
+      "expected_points": [
+        "SaaS, PaaS, and IaaS",
+        "In IaaS, the consumer can manage operating systems, storage, and deployed applications"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 7
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 7,
+          "score": 0.7255,
+          "text": "3 \nlanguages, libraries, services, and tools supported by the provider.3 The consumer does \nnot manage or control the underlying cloud infrastructure including network, servers, \noperating systems, or storage, but has control over the deployed applications and possibly \nconfiguration settings for the application-hosting environment. \nInfrastructure as a Service (IaaS). The capability provided to the consumer is to provision \nprocessing, storage, networks, and other fundamental computing resources where the \nconsumer is able to deploy and run arbitrary software, which can include operating \nsystems and applications. The consumer does not manage or control the underlying cloud \ninfrastructure but has control over operating systems, storage, and deployed applications; \nand possibly limited co"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.7071,
+          "text": "e.g., \nstorage, processing, bandwidth, and active user accounts). Resource usage can be \nmonitored, controlled, and reported, providing transparency for both the provider and \nconsumer of the utilized service. \n \nService Models: \nSoftware as a Service (SaaS). The capability provided to the consumer is to use the provider\u2019s \napplications running on a cloud infrastructure2. The applications are accessible from \nvarious client devices through either a thin client interface, such as a web browser (e.g., \nweb-based email), or a program interface. The consumer does not manage or control the \nunderlying cloud infrastructure including network, servers, operating systems, storage, or \neven individual application capabilities, with the possible exception of limited user-\nspecific application configu"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.6371,
+          "text": "2 \n2. \nThe NIST Definition of Cloud Computing \nCloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared \npool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that \ncan be rapidly provisioned and released with minimal management effort or service provider interaction. \nThis cloud model is composed of five essential characteristics, three service models, and four deployment \nmodels. \n \nEssential Characteristics: \nOn-demand self-service. A consumer can unilaterally provision computing capabilities, such as \nserver time and network storage, as needed automatically without requiring human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and a"
+        }
+      ],
+      "matched_source_count": 1,
+      "expected_source_count": 1,
+      "source_coverage": 1.0,
+      "answer": "The cloud service models, as defined in the provided evidence, are:\n\n1. **Software as a Service (SaaS)**: The consumer uses the provider\u2019s applications running on a cloud infrastructure. The consumer does not manage or control the underlying cloud infrastructure, including network, servers, operating systems, storage, or individual application capabilities, with the possible exception of limited user-specific configuration settings [2].\n\n2. **Infrastructure as a Service (IaaS)**: The capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage, and deployed applications; and possibly limited configuration settings for the application-hosting environment [1].\n\nNo third service model is explicitly mentioned in the provided evidence. \n\nIn IaaS, the consumer manages:\n- Operating systems\n- Storage\n- Deployed applications\n- Possibly limited configuration settings for the application-hosting environment [1].",
+      "usage": {
+        "inputTokens": 593,
+        "outputTokens": 223,
+        "totalTokens": 816
+      },
+      "retrieval_seconds": 0.018,
+      "generation_seconds": 1.238,
+      "error": null
+    },
+    {
+      "id": "Q10",
+      "category": "multi_part",
+      "question": "Explain broad network access and on-demand self-service.",
+      "answerable": true,
+      "expected_points": [
+        "Broad network access provides capabilities over a network through standard mechanisms",
+        "On-demand self-service allows consumers to provision capabilities automatically without human interaction with each provider"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.5694,
+          "text": "2 \n2. \nThe NIST Definition of Cloud Computing \nCloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared \npool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that \ncan be rapidly provisioned and released with minimal management effort or service provider interaction. \nThis cloud model is composed of five essential characteristics, three service models, and four deployment \nmodels. \n \nEssential Characteristics: \nOn-demand self-service. A consumer can unilaterally provision computing capabilities, such as \nserver time and network storage, as needed automatically without requiring human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and a"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.5479,
+          "text": "human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and accessed through standard \nmechanisms that promote use by heterogeneous thin or thick client platforms (e.g., \nmobile phones, tablets, laptops, and workstations). \nResource pooling. The provider\u2019s computing resources are pooled to serve multiple consumers \nusing a multi-tenant model, with different physical and virtual resources dynamically \nassigned and reassigned according to consumer demand. There is a sense of location \nindependence in that the customer generally has no control or knowledge over the exact \nlocation of the provided resources but may be able to specify location at a higher level of \nabstraction (e.g., country, state, or datacenter). Examples of resources"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.5148,
+          "text": "e.g., \nstorage, processing, bandwidth, and active user accounts). Resource usage can be \nmonitored, controlled, and reported, providing transparency for both the provider and \nconsumer of the utilized service. \n \nService Models: \nSoftware as a Service (SaaS). The capability provided to the consumer is to use the provider\u2019s \napplications running on a cloud infrastructure2. The applications are accessible from \nvarious client devices through either a thin client interface, such as a web browser (e.g., \nweb-based email), or a program interface. The consumer does not manage or control the \nunderlying cloud infrastructure including network, servers, operating systems, storage, or \neven individual application capabilities, with the possible exception of limited user-\nspecific application configu"
+        }
+      ],
+      "matched_source_count": 1,
+      "expected_source_count": 1,
+      "source_coverage": 1.0,
+      "answer": "Based on the provided evidence from NIST-SP-800-145.pdf, here is an explanation of the two essential characteristics of cloud computing: broad network access and on-demand self-service.\n\n**Broad Network Access:**\nBroad network access means that cloud computing capabilities are available over the network and can be accessed through standard mechanisms that promote their use by heterogeneous thin or thick client platforms (e.g., mobile phones, tablets, laptops, and workstations). This ensures that the services are accessible from various client devices through different interfaces, such as web browsers or program interfaces [1][2].\n\n**On-demand Self-service:**\nOn-demand self-service refers to the ability of a consumer to unilaterally provision computing capabilities, such as server time and network storage, as needed automatically without requiring human interaction with each service provider. This means that users can independently manage and configure their computing resources according to their needs without needing to involve the service provider directly [1].\n\nThese characteristics highlight the flexibility and accessibility of cloud computing services.",
+      "usage": {
+        "inputTokens": 596,
+        "outputTokens": 215,
+        "totalTokens": 811
+      },
+      "retrieval_seconds": 0.056,
+      "generation_seconds": 1.258,
+      "error": null
+    },
+    {
+      "id": "Q11",
+      "category": "multi_part",
+      "question": "How do private cloud and public cloud differ according to NIST?",
+      "answerable": true,
+      "expected_points": [
+        "Private cloud is provisioned for exclusive use by a single organization",
+        "Public cloud is provisioned for open use by the general public"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 7
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 2,
+          "score": 0.6168,
+          "text": "NIST Special Publication 800-145 \n \nThe NIST Definition of Cloud Computing \nPeter Mell \nTimothy Grance \n \nC  O  M  P  U  T  E  R      S  E  C  U  R  I  T  Y \nComputer Security Division \nInformation Technology Laboratory \nNational Institute of Standards and Technology \nGaithersburg, MD 20899-8930 \n \nSeptember 2011 \n \n \n \n \n \nU.S. Department of Commerce \nRebecca M. Blank, Acting Secretary \nNational Institute of Standards and Technology \nPatrick D. Gallagher, Under Secretary for Standards and \nTechnology and Director"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 7,
+          "score": 0.5956,
+          "text": "urity requirements, policy, and compliance considerations). It may be owned, \nmanaged, and operated by one or more of the organizations in the community, a third \nparty, or some combination of them, and it may exist on or off premises. \nPublic cloud. The cloud infrastructure is provisioned for open use by the general public. It may be \nowned, managed, and operated by a business, academic, or government organization, or \nsome combination of them.  It exists on the premises of the cloud provider. \nHybrid cloud. The cloud infrastructure is a composition of two or more distinct cloud \ninfrastructures (private, community, or public) that remain unique entities, but are bound \ntogether by standardized or proprietary technology that enables data and application \nportability (e.g., cloud bursting"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.5575,
+          "text": "2 \n2. \nThe NIST Definition of Cloud Computing \nCloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared \npool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that \ncan be rapidly provisioned and released with minimal management effort or service provider interaction. \nThis cloud model is composed of five essential characteristics, three service models, and four deployment \nmodels. \n \nEssential Characteristics: \nOn-demand self-service. A consumer can unilaterally provision computing capabilities, such as \nserver time and network storage, as needed automatically without requiring human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and a"
+        }
+      ],
+      "matched_source_count": 1,
+      "expected_source_count": 1,
+      "source_coverage": 1.0,
+      "answer": "According to NIST Special Publication 800-145, the differences between private cloud and public cloud are based on ownership and usage:\n\n1. **Private Cloud**:\n   - The cloud infrastructure is provisioned for a single organization.\n   - It may be owned, managed, and operated by the organization itself or a third party.\n   - It exists on the premises of the cloud provider or organization.\n\n2. **Public Cloud**:\n   - The cloud infrastructure is provisioned for open use by the general public.\n   - It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them.\n   - It exists on the premises of the cloud provider.\n\nThese distinctions highlight the primary difference: a private cloud is exclusive to a single organization, while a public cloud is available to the general public [2].",
+      "usage": {
+        "inputTokens": 594,
+        "outputTokens": 179,
+        "totalTokens": 773
+      },
+      "retrieval_seconds": 0.043,
+      "generation_seconds": 1.032,
+      "error": null
+    },
+    {
+      "id": "Q12",
+      "category": "multi_part",
+      "question": "What are the four deployment models, and what defines a hybrid cloud?",
+      "answerable": true,
+      "expected_points": [
+        "Private, community, public, and hybrid cloud",
+        "Hybrid cloud combines two or more distinct cloud infrastructures bound by technology enabling data and application portability"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 7
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 7,
+          "score": 0.6666,
+          "text": "urity requirements, policy, and compliance considerations). It may be owned, \nmanaged, and operated by one or more of the organizations in the community, a third \nparty, or some combination of them, and it may exist on or off premises. \nPublic cloud. The cloud infrastructure is provisioned for open use by the general public. It may be \nowned, managed, and operated by a business, academic, or government organization, or \nsome combination of them.  It exists on the premises of the cloud provider. \nHybrid cloud. The cloud infrastructure is a composition of two or more distinct cloud \ninfrastructures (private, community, or public) that remain unique entities, but are bound \ntogether by standardized or proprietary technology that enables data and application \nportability (e.g., cloud bursting"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 7,
+          "score": 0.6241,
+          "text": "oud \ninfrastructure but has control over operating systems, storage, and deployed applications; \nand possibly limited control of select networking components (e.g., host firewalls). \n \nDeployment Models: \nPrivate cloud. The cloud infrastructure is provisioned for exclusive use by a single organization \ncomprising multiple consumers (e.g., business units). It may be owned, managed, and \noperated by the organization, a third party, or some combination of them, and it may exist \non or off premises. \nCommunity cloud. The cloud infrastructure is provisioned for exclusive use by a specific \ncommunity of consumers from organizations that have shared concerns (e.g., mission, \nsecurity requirements, policy, and compliance considerations). It may be owned, \nmanaged, and operated by one or more of th"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.6118,
+          "text": "2 \n2. \nThe NIST Definition of Cloud Computing \nCloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared \npool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that \ncan be rapidly provisioned and released with minimal management effort or service provider interaction. \nThis cloud model is composed of five essential characteristics, three service models, and four deployment \nmodels. \n \nEssential Characteristics: \nOn-demand self-service. A consumer can unilaterally provision computing capabilities, such as \nserver time and network storage, as needed automatically without requiring human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and a"
+        }
+      ],
+      "matched_source_count": 1,
+      "expected_source_count": 1,
+      "source_coverage": 1.0,
+      "answer": "The four deployment models of cloud computing, as defined in the NIST Definition of Cloud Computing (NIST SP 800-145), are:\n\n1. **Private Cloud**: The cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple consumers (e.g., business units). It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises [2].\n\n2. **Community Cloud**: The cloud infrastructure is provisioned for exclusive use by a specific community of consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). It may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises [2].\n\n3. **Public Cloud**: The cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them. It exists on the premises of the cloud provider [1].\n\n4. **Hybrid Cloud**: The cloud infrastructure is a composition of two or more distinct cloud infrastructures (private, community, or public) that remain unique entities but are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting) [1].\n\nA hybrid cloud is defined by its composition of multiple distinct cloud infrastructures, which can be private, community, or public clouds, and are connected through standardized or proprietary technology to allow for data and application portability [1].",
+      "usage": {
+        "inputTokens": 616,
+        "outputTokens": 346,
+        "totalTokens": 962
+      },
+      "retrieval_seconds": 0.077,
+      "generation_seconds": 1.437,
+      "error": null
+    },
+    {
+      "id": "Q13",
+      "category": "cross_document",
+      "question": "Which of the two NIST documents in the knowledge base defines cloud service and deployment models?",
+      "answerable": true,
+      "expected_points": [
+        "NIST-SP-800-145.pdf defines cloud service and deployment models"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 5,
+          "score": 0.6896,
+          "text": "her Federal official. \n \n1.2 \nPurpose and Scope \nCloud computing is an evolving paradigm. The NIST definition characterizes important aspects of cloud \ncomputing and is intended to serve as a means for broad comparisons of cloud services and deployment \nstrategies, and to provide a baseline for discussion from what is cloud computing to how to best use cloud \ncomputing.  The service and deployment models defined form a simple taxonomy that is not intended to \nprescribe or constrain any particular method of deployment, service delivery, or business operation. \n \n1.3 \nAudience \nThe intended audience of this document is system planners, program managers, technologists, and others \nadopting cloud computing as consumers or providers of cloud services."
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.6332,
+          "text": "2 \n2. \nThe NIST Definition of Cloud Computing \nCloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared \npool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that \ncan be rapidly provisioned and released with minimal management effort or service provider interaction. \nThis cloud model is composed of five essential characteristics, three service models, and four deployment \nmodels. \n \nEssential Characteristics: \nOn-demand self-service. A consumer can unilaterally provision computing capabilities, such as \nserver time and network storage, as needed automatically without requiring human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and a"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 5,
+          "score": 0.6104,
+          "text": "Systems,\u201d as analyzed in A-130, Appendix IV: Analysis of Key Sections.  Supplemental \ninformation is provided in A-130, Appendix III.  \n \nThis guideline has been prepared for use by Federal agencies.  It may be used by nongovernmental \norganizations on a voluntary basis and is not subject to copyright, though attribution is desired. \n \nNothing in this document should be taken to contradict standards and guidelines made mandatory and \nbinding on Federal agencies by the Secretary of Commerce under statutory authority, nor should these \nguidelines be interpreted as altering or superseding the existing authorities of the Secretary of Commerce, \nDirector of the OMB, or any other Federal official. \n \n1.2 \nPurpose and Scope \nCloud computing is an evolving paradigm. The NIST definition characteri"
+        }
+      ],
+      "matched_source_count": 1,
+      "expected_source_count": 1,
+      "source_coverage": 1.0,
+      "answer": "The NIST document [1] on page 5 defines cloud service and deployment models. It states that the service and deployment models defined form a simple taxonomy that is not intended to prescribe or constrain any particular method of deployment, service delivery, or business operation. \n\nThe document [2] on page 6 provides the NIST definition of cloud computing, which includes five essential characteristics, three service models, and four deployment models. \n\nTherefore, the document that defines cloud service and deployment models is [1].",
+      "usage": {
+        "inputTokens": 600,
+        "outputTokens": 107,
+        "totalTokens": 707
+      },
+      "retrieval_seconds": 0.052,
+      "generation_seconds": 0.84,
+      "error": null
+    },
+    {
+      "id": "Q14",
+      "category": "cross_document",
+      "question": "Which document in the knowledge base is titled Zero Trust Architecture?",
+      "answerable": true,
+      "expected_points": [
+        "NIST-SP-800-207.pdf is titled Zero Trust Architecture"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 1
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 5,
+          "score": 0.6635,
+          "text": "NIST SP 800-207 \n \nZERO TRUST ARCHITECTURE \n \n \n \niii \nThis publication is available free of charge from: https://doi.org/10.6028/NIST.SP.800-207 \nAcknowledgments \nThis document is the product of a collaboration between multiple federal agencies and is \noverseen by the Federal CIO Council. The architecture subgroup is responsible for development \nof this document, but there are specific individuals who deserve recognition. These include Greg \nHolden, project manager of the Federal CIO Council ZTA project; Alper Kerman, project \nmanager for the NIST/National Cybersecurity Center of Excellence ZTA effort; and Douglas \nMontgomery.  \nAudience \nThis document is intended to describe zero trust for enterprise security architects. It is meant to \naid understanding of zero trust for civilian unclas"
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 7,
+          "score": 0.6487,
+          "text": "NIST SP 800-207 \n \nZERO TRUST ARCHITECTURE \n \n \n \nv \nThis publication is available free of charge from: https://doi.org/10.6028/NIST.SP.800-207 \nTable of Contents \n1 \nIntroduction ............................................................................................................ 1 \n1.1 History of Zero Trust Efforts Related to Federal Agencies .............................. 2 \n1.2 Structure of This Document ............................................................................ 2 \n2 \nZero Trust Basics ................................................................................................... 4 \n2.1 Tenets of Zero Trust ....................................................................................... 6 \n2.2 A Zero Trust View of a Network .........................."
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 13,
+          "score": 0.6449,
+          "text": "NIST SP 800-207 \n \nZERO TRUST ARCHITECTURE \n \n \n \n4 \nThis publication is available free of charge from: https://doi.org/10.6028/NIST.SP.800-207 \n2 \nZero Trust Basics \nZero trust is a cybersecurity paradigm focused on resource protection and the premise that trust \nis never granted implicitly but must be continually evaluated. Zero trust architecture is an end-to-\nend approach to enterprise resource and data security that encompasses identity (person and non-\nperson entities), credentials, access management, operations, endpoints, hosting environments, \nand the interconnecting infrastructure. The initial focus should be on restricting resources to \nthose with a need to access and grant only the minimum privileges (e.g., read, write, delete) \nneeded to perform the mission. Traditionally, age"
+        }
+      ],
+      "matched_source_count": 0,
+      "expected_source_count": 1,
+      "source_coverage": 0.0,
+      "answer": "The document titled \"Zero Trust Architecture\" is NIST SP 800-207 [1][2][3]. This document provides an overview of zero trust for enterprise security architects and is available for free from the provided DOI link.",
+      "usage": {
+        "inputTokens": 646,
+        "outputTokens": 55,
+        "totalTokens": 701
+      },
+      "retrieval_seconds": 0.019,
+      "generation_seconds": 0.9,
+      "error": null
+    },
+    {
+      "id": "Q15",
+      "category": "cross_document",
+      "question": "What are the main topics covered by NIST-SP-800-145 and NIST-SP-800-207, respectively?",
+      "answerable": true,
+      "expected_points": [
+        "NIST-SP-800-145 covers the definition of cloud computing",
+        "NIST-SP-800-207 covers zero trust architecture"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 1
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 1
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 3,
+          "score": 0.5193,
+          "text": "The information in this publication, including concepts and methodologies, \nmay be used by federal agencies even before the completion of such companion publications. Thus, until each \npublication is completed, current requirements, guidelines, and procedures, where they exist, remain operative. For \nplanning and transition purposes, federal agencies may wish to closely follow the development of these new \npublications by NIST.   \nOrganizations are encouraged to review all draft publications during public comment periods and provide feedback to \nNIST. Many NIST cybersecurity publications, other than the ones noted above, are available at \nhttps://csrc.nist.gov/publications. \n \nComments on this publication may be submitted to: \nNational Institute of Standards and Technology \nAttn: Advanced"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 3,
+          "score": 0.5008,
+          "text": "se. \nNational Institute of Standards and Technology Special Publication 800-145 \n7 pages (September 2011)"
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 3,
+          "score": 0.4686,
+          "text": "Publ. 800-207, 59 pages (August 2020) \nCODEN: NSPUE2 \nThis publication is available free of charge from: \nhttps://doi.org/10.6028/NIST.SP.800-207 \nCertain commercial entities, equipment, or materials may be identified in this document in order to describe an \nexperimental procedure or concept adequately. Such identification is not intended to imply recommendation or \nendorsement by NIST, nor is it intended to imply that the entities, materials, or equipment are necessarily the best \navailable for the purpose.  \nThere may be references in this publication to other publications currently under development by NIST in accordance \nwith its assigned statutory responsibilities. The information in this publication, including concepts and methodologies, \nmay be used by federal agencies even before"
+        }
+      ],
+      "matched_source_count": 0,
+      "expected_source_count": 2,
+      "source_coverage": 0.0,
+      "answer": "The main topics covered by NIST-SP-800-145 and NIST-SP-800-207 are not explicitly stated in the provided evidence. \n\nFor NIST-SP-800-145:\n- The evidence only mentions that it is a 7-page document published in September 2011 [2].\n\nFor NIST-SP-800-207:\n- The evidence indicates it is a 59-page document published in August 2020, and it includes information on the use of the publication by federal agencies and mentions that certain commercial entities, equipment, or materials may be identified for adequate description purposes [3].\n\nTo determine the specific topics covered by these publications, additional information from the documents themselves would be required.",
+      "usage": {
+        "inputTokens": 523,
+        "outputTokens": 172,
+        "totalTokens": 695
+      },
+      "retrieval_seconds": 0.053,
+      "generation_seconds": 1.069,
+      "error": null
+    },
+    {
+      "id": "Q16",
+      "category": "cross_document",
+      "question": "Which source should be consulted for NIST's definition of cloud computing, and which for zero trust architecture?",
+      "answerable": true,
+      "expected_points": [
+        "NIST-SP-800-145.pdf for the definition of cloud computing",
+        "NIST-SP-800-207.pdf for zero trust architecture"
+      ],
+      "expected_sources": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 1
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 1
+        }
+      ],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 2,
+          "score": 0.6929,
+          "text": "NIST Special Publication 800-145 \n \nThe NIST Definition of Cloud Computing \nPeter Mell \nTimothy Grance \n \nC  O  M  P  U  T  E  R      S  E  C  U  R  I  T  Y \nComputer Security Division \nInformation Technology Laboratory \nNational Institute of Standards and Technology \nGaithersburg, MD 20899-8930 \n \nSeptember 2011 \n \n \n \n \n \nU.S. Department of Commerce \nRebecca M. Blank, Acting Secretary \nNational Institute of Standards and Technology \nPatrick D. Gallagher, Under Secretary for Standards and \nTechnology and Director"
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 13,
+          "score": 0.6625,
+          "text": "NIST SP 800-207 \n \nZERO TRUST ARCHITECTURE \n \n \n \n4 \nThis publication is available free of charge from: https://doi.org/10.6028/NIST.SP.800-207 \n2 \nZero Trust Basics \nZero trust is a cybersecurity paradigm focused on resource protection and the premise that trust \nis never granted implicitly but must be continually evaluated. Zero trust architecture is an end-to-\nend approach to enterprise resource and data security that encompasses identity (person and non-\nperson entities), credentials, access management, operations, endpoints, hosting environments, \nand the interconnecting infrastructure. The initial focus should be on restricting resources to \nthose with a need to access and grant only the minimum privileges (e.g., read, write, delete) \nneeded to perform the mission. Traditionally, age"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 1,
+          "score": 0.6417,
+          "text": "The NIST Definition of Cloud \nComputing \nRecommendations of the National Institute \nof Standards and Technology \n \nPeter Mell \nTimothy Grance \n \n \nSpecial Publication 800-145"
+        }
+      ],
+      "matched_source_count": 1,
+      "expected_source_count": 2,
+      "source_coverage": 0.5,
+      "answer": "To answer the question regarding which source should be consulted for NIST's definition of cloud computing and which for zero trust architecture, we can refer directly to the provided evidence:\n\n- For NIST's definition of cloud computing, you should consult **NIST SP 800-145**. Specifically, this document is titled \"The NIST Definition of Cloud Computing\" and is authored by Peter Mell and Timothy Grance. It is available in the provided evidence as [1] and [3].\n\n- For zero trust architecture, you should consult **NIST SP 800-207**. This document is titled \"ZERO TRUST ARCHITECTURE\" and is also authored by the National Institute of Standards and Technology. It is available in the provided evidence as [2].\n\nTherefore:\n- **NIST SP 800-145** should be consulted for NIST's definition of cloud computing [1], [3].\n- **NIST SP 800-207** should be consulted for zero trust architecture [2].",
+      "usage": {
+        "inputTokens": 514,
+        "outputTokens": 229,
+        "totalTokens": 743
+      },
+      "retrieval_seconds": 0.018,
+      "generation_seconds": 1.207,
+      "error": null
+    },
+    {
+      "id": "Q17",
+      "category": "unsupported",
+      "question": "What is the exact monthly AWS bill for running this application in production?",
+      "answerable": false,
+      "expected_points": [],
+      "expected_sources": [],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 48,
+          "score": 0.33,
+          "text": "ransition to ZTA as \ndisruptions will likely not negatively impact the entire organization. Once enough experience is \ngained, more critical business processes can become candidates. \nBusiness processes that utilize cloud-based resources or are used by remote workers are often \ngood candidates for ZTA and would likely see improvements to availability and security. Rather \nthan project the enterprise perimeter into the cloud or bring clients into the enterprise network \nvia a VPN, enterprise clients can request cloud services directly. The enterprise\u2019s PEPs ensure \nthat enterprise policies are followed before resource access is granted to a client. Planners should \nalso consider potential tradeoffs in performance, user experience, and possible increased \nworkflow fragility that may occur wh"
+        },
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.3213,
+          "text": "2 \n2. \nThe NIST Definition of Cloud Computing \nCloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared \npool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that \ncan be rapidly provisioned and released with minimal management effort or service provider interaction. \nThis cloud model is composed of five essential characteristics, three service models, and four deployment \nmodels. \n \nEssential Characteristics: \nOn-demand self-service. A consumer can unilaterally provision computing capabilities, such as \nserver time and network storage, as needed automatically without requiring human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and a"
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 33,
+          "score": 0.3129,
+          "text": "NIST SP 800-207 \n \nZERO TRUST ARCHITECTURE \n \n \n \n24 \nThis publication is available free of charge from: https://doi.org/10.6028/NIST.SP.800-207 \n \nFigure 8: Enterprise with Remote Employees \n4.2 \nMulti-cloud/Cloud-to-Cloud Enterprise \nOne increasingly common use case for deploying a ZTA is an enterprise utilizing multiple cloud \nproviders (see Figure 9). In this use case, the enterprise has a local network but uses two or more \ncloud service providers to host applications/services and data. Sometimes, the application/service \nis hosted on a cloud service that is separate from the data source. For performance and ease of \nmanagement, the application hosted in Cloud Provider A should be able to connect directly to the \ndata source hosted in Cloud Provider B rather than force the application"
+        }
+      ],
+      "matched_source_count": 0,
+      "expected_source_count": 0,
+      "source_coverage": null,
+      "answer": "The provided evidence does not contain specific information regarding the exact monthly AWS bill for running an application in production. The documents focus on concepts related to Zero Trust Architecture (ZTA), cloud computing models, and their implications for security and availability, but do not provide detailed financial or cost-related data for AWS services.\n\nTherefore, based on the given evidence, the exact monthly AWS bill for running the application in production cannot be determined [1], [2], [3].",
+      "usage": {
+        "inputTokens": 629,
+        "outputTokens": 100,
+        "totalTokens": 729
+      },
+      "retrieval_seconds": 0.055,
+      "generation_seconds": 0.934,
+      "error": null
+    },
+    {
+      "id": "Q18",
+      "category": "unsupported",
+      "question": "What is the current password for the AWS account?",
+      "answerable": false,
+      "expected_points": [],
+      "expected_sources": [],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 38,
+          "score": 0.2946,
+          "text": "nation of attacks to obtain credentials \nof valuable accounts. \u201cValuable\u201d may mean different things based on the attacker\u2019s motivation. \nFor instance, enterprise administrator accounts may be valuable, but attackers interested in \nfinancial gain may consider accounts that have access to financial or payment resources of equal \nvalue. Implementation of MFA for access requests may reduce the risk of information loss from \na compromised account. However, an attacker with valid credentials (or a malicious insider) may \nstill be able to access resources for which the account has been granted access. For example, an \nattacker or compromised employee who has the credentials and enterprise-owned asset of a valid \nhuman resources employee may still be able to access an employee database.   \nZTA red"
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 14,
+          "score": 0.2723,
+          "text": "NIST SP 800-207 \n \nZERO TRUST ARCHITECTURE \n \n \n \n5 \nThis publication is available free of charge from: https://doi.org/10.6028/NIST.SP.800-207 \nIn the abstract model of access shown in Figure 1, a subject needs access to an enterprise \nresource. Access is granted through a policy decision point (PDP) and corresponding policy \nenforcement point (PEP).3  \n \n \nFigure 1: Zero Trust Access \nThe system must ensure that the subject is authentic and the request is valid. The PDP/PEP \npasses proper judgment to allow the subject to access the resource. This implies that zero trust \napplies to two basic areas: authentication and authorization. What is the level of confidence \nabout the subject\u2019s identity for this unique request? Is access to the resource allowable given the \nlevel of confidence in t"
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 36,
+          "score": 0.2712,
+          "text": "to what internal \ncybersecurity polices can be enforced. \nFor a general, public-facing resource that does not require login credentials to access (e.g., public \nweb page), the tenets of ZTA do not directly apply. The enterprise cannot strictly control the \nstate of requesting assets, and anonymous public resources (e.g., a public web page) do not \nrequire credentials in order to be accessed.   \nEnterprises may establish policies for registered public users such as customers (i.e., those with a \nbusiness relationship) and special users (e.g., employee dependents). If the users are required to \nproduce or are issued credentials, the enterprise may institute policies regarding password length, \nlife cycle, and other details and may provide MFA as an option or requirement. However, \nenterprise"
+        }
+      ],
+      "matched_source_count": 0,
+      "expected_source_count": 0,
+      "source_coverage": null,
+      "answer": "The evidence provided does not contain any information regarding the current password for the AWS account. Therefore, I cannot provide an answer based on the given documents. [1], [2], [3]",
+      "usage": {
+        "inputTokens": 650,
+        "outputTokens": 45,
+        "totalTokens": 695
+      },
+      "retrieval_seconds": 0.021,
+      "generation_seconds": 0.551,
+      "error": null
+    },
+    {
+      "id": "Q19",
+      "category": "unsupported",
+      "question": "What is the exact number of employees at my company?",
+      "answerable": false,
+      "expected_points": [],
+      "expected_sources": [],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 47,
+          "score": 0.2811,
+          "text": "certificates). It may not be possible to conduct a complete \ncensus on all enterprise-owned assets, so an enterprise should consider building the capability to \nquickly identify, categorize, and assess newly discovered assets that are on enterprise-owned \ninfrastructure. \nThis goes beyond simply cataloging and maintaining a database of enterprise assets. This also \nincludes configuration management and monitoring. The ability to observe the current state of an \nasset is part of the process of evaluating access requests (see Section 2.1). This means that the \nenterprise must be able to configure, survey, and update enterprise assets, such as virtual assets \nand containers. This also includes both its physical (as best estimated) and network location. This \ninformation should inform the PE"
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 47,
+          "score": 0.2652,
+          "text": "trators to satisfy a more stringent confidence level or criteria as outlined in NIST \nSP 800-63A, Section 5 [SP800-63A].  \n7.3.2 Identify Assets Owned by the Enterprise \nAs mentioned in Section 2.1, one of the key requirements of ZTA is the ability to identify and \nmanage devices. ZTA also requires the ability to identify and monitor nonenterprise-owned \ndevices that may be on enterprise-owned network infrastructure or that access enterprise \nresources. The ability to manage enterprise assets is key to the successful deployment of ZTA. \nThis includes hardware components (e.g., laptops, phones, IoT devices) and digital artifacts (e.g., \nuser accounts, applications, digital certificates). It may not be possible to conduct a complete \ncensus on all enterprise-owned assets, so an enterprise sh"
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 32,
+          "score": 0.2446,
+          "text": "location may not have a full enterprise-\nowned local network but still need to access enterprise resources to perform their tasks. The \nenterprise may have a Multiprotocol Label Switch (MPLS) link to the enterprise HQ network but \nmay not have adequate bandwidth for all traffic or may not wish for traffic destined for cloud-\nbased applications/services to traverse through the enterprise HQ network. Likewise, employees \nmay be teleworking or in a remote location and using enterprise-owned or personally-owned \ndevices. In such cases, an enterprise may wish to grant access to some resources (e.g., employee \ncalendar, email) but deny access or restrict actions to more sensitive resources (e.g., HR \ndatabase). \nIn this use case, the PE/PA(s) is often hosted as a cloud service (which usually pro"
+        }
+      ],
+      "matched_source_count": 0,
+      "expected_source_count": 0,
+      "source_coverage": null,
+      "answer": "The provided evidence does not contain any information regarding the exact number of employees at your company. Therefore, I cannot provide an answer based on the given documents [1], [2], [3].",
+      "usage": {
+        "inputTokens": 649,
+        "outputTokens": 46,
+        "totalTokens": 695
+      },
+      "retrieval_seconds": 0.02,
+      "generation_seconds": 0.753,
+      "error": null
+    },
+    {
+      "id": "Q20",
+      "category": "unsupported",
+      "question": "Which cloud provider is the cheapest for every possible workload?",
+      "answerable": false,
+      "expected_points": [],
+      "expected_sources": [],
+      "retrieved": [
+        {
+          "document": "NIST-SP-800-145.pdf",
+          "page": 6,
+          "score": 0.5304,
+          "text": "2 \n2. \nThe NIST Definition of Cloud Computing \nCloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared \npool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that \ncan be rapidly provisioned and released with minimal management effort or service provider interaction. \nThis cloud model is composed of five essential characteristics, three service models, and four deployment \nmodels. \n \nEssential Characteristics: \nOn-demand self-service. A consumer can unilaterally provision computing capabilities, such as \nserver time and network storage, as needed automatically without requiring human \ninteraction with each service provider.  \nBroad network access. Capabilities are available over the network and a"
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 33,
+          "score": 0.5013,
+          "text": "NIST SP 800-207 \n \nZERO TRUST ARCHITECTURE \n \n \n \n24 \nThis publication is available free of charge from: https://doi.org/10.6028/NIST.SP.800-207 \n \nFigure 8: Enterprise with Remote Employees \n4.2 \nMulti-cloud/Cloud-to-Cloud Enterprise \nOne increasingly common use case for deploying a ZTA is an enterprise utilizing multiple cloud \nproviders (see Figure 9). In this use case, the enterprise has a local network but uses two or more \ncloud service providers to host applications/services and data. Sometimes, the application/service \nis hosted on a cloud service that is separate from the data source. For performance and ease of \nmanagement, the application hosted in Cloud Provider A should be able to connect directly to the \ndata source hosted in Cloud Provider B rather than force the application"
+        },
+        {
+          "document": "NIST-SP-800-207.pdf",
+          "page": 33,
+          "score": 0.5009,
+          "text": "ted by \nany other service provider. The zero trust approach to multi-cloud use is to place PEPs at the"
+        }
+      ],
+      "matched_source_count": 0,
+      "expected_source_count": 0,
+      "source_coverage": null,
+      "answer": "The evidence provided does not contain information regarding the cost of different cloud providers for various workloads. Therefore, it is not possible to determine which cloud provider is the cheapest for every possible workload based on the given documents [1], [2], [3]. \n\nTo answer this question, specific pricing information from each cloud provider would be required, which is not included in the provided evidence.",
+      "usage": {
+        "inputTokens": 505,
+        "outputTokens": 83,
+        "totalTokens": 588
+      },
+      "retrieval_seconds": 0.018,
+      "generation_seconds": 0.709,
+      "error": null
+    }
+  ]
+}

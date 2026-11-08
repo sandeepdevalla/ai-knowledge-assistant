@@ -1,0 +1,268 @@
+
+[
+  {
+    "id": "Q01",
+    "category": "direct",
+    "question": "What are the five essential characteristics of cloud computing?",
+    "expected_points": [
+      "On-demand self-service",
+      "Broad network access",
+      "Resource pooling",
+      "Rapid elasticity",
+      "Measured service"
+    ],
+    "sources": [
+      {
+        "document": "NIST-SP-800-145.pdf",
+        "page": 6
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "Q02",
+    "category": "direct",
+    "question": "What is the NIST definition of cloud computing?",
+    "expected_points": [
+      "Ubiquitous, convenient, on-demand network access",
+      "A shared pool of configurable computing resources",
+      "Resources can be rapidly provisioned and released",
+      "Minimal management effort or service-provider interaction"
+    ],
+    "sources": [
+      {
+        "document": "NIST-SP-800-145.pdf",
+        "page": 6
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "Q03",
+    "category": "direct",
+    "question": "What are the three cloud service models defined by NIST?",
+    "expected_points": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)"
+    ],
+    "sources": [
+      {
+        "document": "NIST-SP-800-145.pdf", 
+        "page": 6
+      },
+      {
+        "document": "NIST-SP-800-145.pdf", 
+        "page": 7
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "Q04",
+    "category": "direct",
+    "question": "What are the four cloud deployment models defined by NIST?",
+    "expected_points": [
+      "Private cloud",
+      "Community cloud",
+      "Public cloud",
+      "Hybrid cloud"
+    ],
+    "sources": [
+      {
+        "document": "NIST-SP-800-145.pdf",
+        "page": 7
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "Q05",
+    "category": "direct",
+    "question": "What does resource pooling mean in cloud computing?",
+    "expected_points": [
+      "Provider resources are pooled to serve multiple consumers",
+      "A multi-tenant model is used",
+      "Resources are dynamically assigned and reassigned according to demand"
+    ],
+    "sources": [
+      {
+        "document": "NIST-SP-800-145.pdf",
+        "page": 6
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "Q06",
+    "category": "direct",
+    "question": "What is rapid elasticity in cloud computing?",
+    "expected_points": [
+      "Capabilities can be elastically provisioned and released",
+      "Scaling can occur rapidly outward and inward according to demand"
+    ],
+    "sources": [
+      {
+        "document": "NIST-SP-800-145.pdf",
+        "page": 6
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "Q07",
+    "category": "direct",
+    "question": "What is measured service?",
+    "expected_points": [
+      "Resource use is automatically controlled and optimized through metering",
+      "Usage can be monitored, controlled, and reported"
+    ],
+    "sources": [
+      {
+        "document": "NIST-SP-800-145.pdf",
+        "page": 6
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "Q08",
+    "category": "direct",
+    "question": "What is the purpose of the NIST definition of cloud computing?",
+    "expected_points": [
+      "It supports broad comparisons of cloud services and deployment strategies",
+      "It provides a baseline for discussing cloud computing and its use"
+    ],
+    "sources": [
+      {
+        "document": "NIST-SP-800-145.pdf",
+        "page": 5
+      }
+    ],
+    "answerable": true
+  },
+{
+  "id": "Q09",
+  "category": "multi_part",
+  "question": "What are the cloud service models, and what does the consumer manage in IaaS?",
+  "expected_points": [
+    "SaaS, PaaS, and IaaS",
+    "In IaaS, the consumer can manage operating systems, storage, and deployed applications"
+  ],
+  "sources": [{"document": "NIST-SP-800-145.pdf", "page": 7}],
+  "answerable": true
+},
+{
+  "id": "Q10",
+  "category": "multi_part",
+  "question": "Explain broad network access and on-demand self-service.",
+  "expected_points": [
+    "Broad network access provides capabilities over a network through standard mechanisms",
+    "On-demand self-service allows consumers to provision capabilities automatically without human interaction with each provider"
+  ],
+  "sources": [{"document": "NIST-SP-800-145.pdf", "page": 6}],
+  "answerable": true
+},
+{
+  "id": "Q11",
+  "category": "multi_part",
+  "question": "How do private cloud and public cloud differ according to NIST?",
+  "expected_points": [
+    "Private cloud is provisioned for exclusive use by a single organization",
+    "Public cloud is provisioned for open use by the general public"
+  ],
+  "sources": [{"document": "NIST-SP-800-145.pdf", "page": 7}],
+  "answerable": true
+},
+{
+  "id": "Q12",
+  "category": "multi_part",
+  "question": "What are the four deployment models, and what defines a hybrid cloud?",
+  "expected_points": [
+    "Private, community, public, and hybrid cloud",
+    "Hybrid cloud combines two or more distinct cloud infrastructures bound by technology enabling data and application portability"
+  ],
+  "sources": [{"document": "NIST-SP-800-145.pdf", "page": 7}],
+  "answerable": true
+},
+{
+  "id": "Q13",
+  "category": "cross_document",
+  "question": "Which of the two NIST documents in the knowledge base defines cloud service and deployment models?",
+  "expected_points": [
+    "NIST-SP-800-145.pdf defines cloud service and deployment models"
+  ],
+  "sources": [{"document": "NIST-SP-800-145.pdf", "page": 6}],
+  "answerable": true
+},
+{
+  "id": "Q14",
+  "category": "cross_document",
+  "question": "Which document in the knowledge base is titled Zero Trust Architecture?",
+  "expected_points": [
+    "NIST-SP-800-207.pdf is titled Zero Trust Architecture"
+  ],
+  "sources": [{"document": "NIST-SP-800-207.pdf", "page": 1}],
+  "answerable": true
+},
+{
+  "id": "Q15",
+  "category": "cross_document",
+  "question": "What are the main topics covered by NIST-SP-800-145 and NIST-SP-800-207, respectively?",
+  "expected_points": [
+    "NIST-SP-800-145 covers the definition of cloud computing",
+    "NIST-SP-800-207 covers zero trust architecture"
+  ],
+  "sources": [
+    {"document": "NIST-SP-800-145.pdf", "page": 1},
+    {"document": "NIST-SP-800-207.pdf", "page": 1}
+  ],
+  "answerable": true
+},
+{
+  "id": "Q16",
+  "category": "cross_document",
+  "question": "Which source should be consulted for NIST's definition of cloud computing, and which for zero trust architecture?",
+  "expected_points": [
+    "NIST-SP-800-145.pdf for the definition of cloud computing",
+    "NIST-SP-800-207.pdf for zero trust architecture"
+  ],
+  "sources": [
+    {"document": "NIST-SP-800-145.pdf", "page": 1},
+    {"document": "NIST-SP-800-207.pdf", "page": 1}
+  ],
+  "answerable": true
+},
+{
+  "id": "Q17",
+  "category": "unsupported",
+  "question": "What is the exact monthly AWS bill for running this application in production?",
+  "expected_points": [],
+  "sources": [],
+  "answerable": false
+},
+{
+  "id": "Q18",
+  "category": "unsupported",
+  "question": "What is the current password for the AWS account?",
+  "expected_points": [],
+  "sources": [],
+  "answerable": false
+},
+{
+  "id": "Q19",
+  "category": "unsupported",
+  "question": "What is the exact number of employees at my company?",
+  "expected_points": [],
+  "sources": [],
+  "answerable": false
+},
+{
+  "id": "Q20",
+  "category": "unsupported",
+  "question": "Which cloud provider is the cheapest for every possible workload?",
+  "expected_points": [],
+  "sources": [],
+  "answerable": false
+}
+]
